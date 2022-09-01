@@ -1,0 +1,86 @@
+.navbar-logo {
+    width: 190px;
+}
+
+#banner {
+    background-image: url(../media/banner-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    padding: 82px 0 194px;
+}
+
+#banner .img-fluid.banner-img {
+    width: 650px;
+}
+
+#watch-video video {
+    max-width: 100%;
+
+}
+
+#welcome-rebound {
+    background-image: url(../media/banner-2.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    padding: 175px 0 50px;
+}
+
+#welcome-rebound .terrance {
+    font-family: 'Ms Madi', cursive;
+}
+
+#pay-plan .books-picture.img-fluid {
+    width: 650px;
+}
+
+p,
+li {
+    font-size: 18px;
+}
+
+.nav-link {
+    color: black !important;
+}
+
+footer {
+    background-image: url(../media/footer-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    padding: 59px 0 25px;
+}
+
+
+footer .button-div a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    background: linear-gradient(#036588, #74bbe494);
+    font-size: 31px;
+    padding: 1px 38px;
+    margin: 10px 5px;
+    border-radius: 2px;
+}
+
+footer .img-fluid.footer-logo {
+    width: 550px;
+    padding-top: 32px;
+}
+
+footer .all-right-row a {
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+
+
+/* responsive css */
+
+@media only screen and (max-width: 993px) {
+    .nav-item {
+        text-align: center;
+    }
+}
